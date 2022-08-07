@@ -1,0 +1,30 @@
+.header{
+    background-color: rgb(13, 27, 183);
+    color: white;
+    
+}
+
+.flexseal{
+    display: flex;
+}
+
+.card-body{
+    background-color: rgb(40, 58, 108);
+    border-radius: 10px;
+    margin: 2px;
+    
+}
+
+#five{
+    display:flex;
+    justify-content: space-around;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    
+}
+
+.submit{
+    background-color: aqua;
+    
+
+}
