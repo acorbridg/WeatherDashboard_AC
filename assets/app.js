@@ -3,7 +3,7 @@ var APIkey = "27c3fb25ac281c0d47d1866e90304c5e"
 var cityList = JSON.parse(localStorage.getItem("cityList") || "[]")
 //function that calls the city name
 function getGeoUrl (cityName){
-    return `http://api.openweathermap.org/geo/1.0/direct?q=${cityName}&limit=1&appid=${APIkey}`
+    return `https://api.openweathermap.org/geo/1.0/direct?q=${cityName}&limit=1&appid=${APIkey}`
 
 }
 //function that calls for latitude and longitude
